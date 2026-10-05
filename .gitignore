@@ -1,0 +1,12 @@
+# Local full-text study notes rebuilt by INGEST — do not redistribute
+library/local/
+
+# Personal notes and context
+*.local.md
+CLAUDE.local.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.obsidian/
+__pycache__/

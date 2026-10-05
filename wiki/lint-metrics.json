@@ -1,0 +1,122 @@
+{
+ "weak": [
+  "l_GD",
+  "l_HF",
+  "l_UD",
+  "psy_CentreStageEffect",
+  "psy_EmpathyGap",
+  "psy_ExpectationsBias",
+  "psy_GoalGradientEffect",
+  "psy_HawthorneEffect",
+  "psy_InvestmentLoops",
+  "psy_SensoryAppeal",
+  "psy_SpotlightEffect",
+  "psy_StorytellingEffect",
+  "psy_SurveyBias",
+  "psy_SurvivorshipBias",
+  "sci_DP",
+  "sci_KOLB",
+  "sci_RP",
+  "sci_DREY",
+  "t_Artifactseniority",
+  "t_Einstellungfunctionalfixedness",
+  "t_Nominalpathbias",
+  "t_Phantomcompetency",
+  "t_Problemsolutioncoevolutionignored",
+  "t_Satisficingtooearly",
+  "t_Tastegap"
+ ],
+ "cov": [
+  {
+   "d": "D1 Visual craft & brand",
+   "hd": 14,
+   "ux": 2,
+   "ch": 0,
+   "mods": 3,
+   "psy": 5,
+   "lin": 8
+  },
+  {
+   "d": "D2 Interaction, motion & prototyping",
+   "hd": 9,
+   "ux": 6,
+   "ch": 3,
+   "mods": 2,
+   "psy": 5,
+   "lin": 2
+  },
+  {
+   "d": "D3 Research & evidence",
+   "hd": 9,
+   "ux": 13,
+   "ch": 10,
+   "mods": 0,
+   "psy": 5,
+   "lin": 1
+  },
+  {
+   "d": "D4 Behaviour & psychology",
+   "hd": 4,
+   "ux": 1,
+   "ch": 1,
+   "mods": 1,
+   "psy": 5,
+   "lin": 2
+  },
+  {
+   "d": "D5 Product thinking, quality & philosophy",
+   "hd": 11,
+   "ux": 5,
+   "ch": 0,
+   "mods": 1,
+   "psy": 4,
+   "lin": 4
+  },
+  {
+   "d": "D6 Systems, structure & platforms",
+   "hd": 7,
+   "ux": 3,
+   "ch": 4,
+   "mods": 3,
+   "psy": 5,
+   "lin": 2
+  },
+  {
+   "d": "D7 Language, communication & facilitation",
+   "hd": 1,
+   "ux": 5,
+   "ch": 0,
+   "mods": 1,
+   "psy": 4,
+   "lin": 0
+  },
+  {
+   "d": "D8 Self, taste & career",
+   "hd": 11,
+   "ux": 12,
+   "ch": 0,
+   "mods": 0,
+   "psy": 4,
+   "lin": 2
+  },
+  {
+   "d": "D9 Emergent media",
+   "hd": 2,
+   "ux": 0,
+   "ch": 0,
+   "mods": 1,
+   "psy": 3,
+   "lin": 1
+  },
+  {
+   "d": "D10 AI-native practice & design ops",
+   "hd": 0,
+   "ux": 22,
+   "ch": 0,
+   "mods": 0,
+   "psy": 4,
+   "lin": 0
+  }
+ ],
+ "unknownPrinciples": []
+}

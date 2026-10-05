@@ -1,0 +1,1254 @@
+{
+ "note": "Index only: titles, links and tags. Full-text extracts are not redistributed; run INGEST locally to rebuild them.",
+ "count": 156,
+ "items": [
+  {
+   "title": "Bringing Depth to Design",
+   "url": "https://www.hackdesign.org/lessons/bringing-depth-to-design",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": "2025"
+  },
+  {
+   "title": "Great Animations",
+   "url": "https://www.hackdesign.org/lessons/great-animations",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": "2025"
+  },
+  {
+   "title": "Embracing the Ordinary Through Super Normal Design",
+   "url": "https://www.hackdesign.org/lessons/embracing-the-ordinary-through-supernormal-design",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": "2025"
+  },
+  {
+   "title": "Moving Beyond \"Move Fast and Break Things\"",
+   "url": "https://www.hackdesign.org/lessons/moving-beyond-move-fast-and-break-things",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": "2025"
+  },
+  {
+   "title": "Practical AI Tools for Your Everyday Design Tasks",
+   "url": "https://www.hackdesign.org/lessons/practical-ai-tools-for-your-everyday-design-tasks",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D8 Self, taste & career",
+   "year": "2025"
+  },
+  {
+   "title": "Creating a Unique Personal Design Style",
+   "url": "https://www.hackdesign.org/lessons/creating-a-unique-personal-design-style",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D8 Self, taste & career",
+   "year": "2018"
+  },
+  {
+   "title": "Start Learning 3D",
+   "url": "https://www.hackdesign.org/lessons/start-learning-3d",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D9 Emergent media",
+   "year": "2018"
+  },
+  {
+   "title": "Designing for Augmented Reality",
+   "url": "https://www.hackdesign.org/lessons/designing-for-augmented-reality",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D9 Emergent media",
+   "year": "2018"
+  },
+  {
+   "title": "Design System Fundamentals",
+   "url": "https://www.hackdesign.org/lessons/design-system-fundamentals",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D6 Systems, structure & platforms",
+   "year": "2018"
+  },
+  {
+   "title": "Getting Started with Design Research",
+   "url": "https://www.hackdesign.org/lessons/getting-started-with-design-research",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D3 Research & evidence",
+   "year": "2018"
+  },
+  {
+   "title": "User On-boarding and the New User Experience",
+   "url": "https://www.hackdesign.org/lessons/user-on-boarding-and-the-new-user-experience",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D4 Behaviour & psychology",
+   "year": "2018"
+  },
+  {
+   "title": "User Research with Jobs To Be Done Interviews",
+   "url": "https://www.hackdesign.org/lessons/user-research-with-jobs-to-be-done-interviews",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D3 Research & evidence",
+   "year": "2018"
+  },
+  {
+   "title": "Designs That Convert",
+   "url": "https://www.hackdesign.org/lessons/designs-that-convert",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D3 Research & evidence",
+   "year": "2018"
+  },
+  {
+   "title": "Designing Data",
+   "url": "https://www.hackdesign.org/lessons/designing-data",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D1 Visual craft & brand",
+   "year": "2018"
+  },
+  {
+   "title": "How to Prove Your Design's Value",
+   "url": "https://www.hackdesign.org/lessons/how-to-prove-your-designs-value",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D3 Research & evidence",
+   "year": ""
+  },
+  {
+   "title": "Closing the Creative Gap",
+   "url": "https://www.hackdesign.org/lessons/closing-the-creative-gap",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D8 Self, taste & career",
+   "year": "2018"
+  },
+  {
+   "title": "Run Your First Design Sprint",
+   "url": "https://www.hackdesign.org/lessons/run-your-first-design-sprint",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": "2018"
+  },
+  {
+   "title": "Finale: A field guide to being better at design by being self aware",
+   "url": "https://www.hackdesign.org/lessons/50-finale-a-field-guide-to-being-better-at-design-by-being-self-aware",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D8 Self, taste & career",
+   "year": "2013"
+  },
+  {
+   "title": "Vim as a Design Tool",
+   "url": "https://www.hackdesign.org/lessons/49-vim-as-a-design-tool",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D8 Self, taste & career",
+   "year": "2013"
+  },
+  {
+   "title": "Why Design?",
+   "url": "https://www.hackdesign.org/lessons/48-why-design",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": "2013"
+  },
+  {
+   "title": "How To Get Your First Design Job With No Experience",
+   "url": "https://www.hackdesign.org/lessons/47-how-to-get-your-first-design-job-with-no-experience",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D8 Self, taste & career",
+   "year": "2013"
+  },
+  {
+   "title": "Kickstarting Your Design Career",
+   "url": "https://www.hackdesign.org/lessons/46-kickstarting-your-design-career",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D8 Self, taste & career",
+   "year": "2013"
+  },
+  {
+   "title": "Design Your Mobile App For Multiple Platforms",
+   "url": "https://www.hackdesign.org/lessons/45-design-your-mobile-app-for-multiple-platforms",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D6 Systems, structure & platforms",
+   "year": "2013"
+  },
+  {
+   "title": "Win The Internet With A/B Testing",
+   "url": "https://www.hackdesign.org/lessons/44-win-the-internet-with-ab-testing",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D3 Research & evidence",
+   "year": "2013"
+  },
+  {
+   "title": "Designing With Your Ears",
+   "url": "https://www.hackdesign.org/lessons/43-designing-with-your-ears",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D3 Research & evidence",
+   "year": "2013"
+  },
+  {
+   "title": "The All Encompassing User Experience",
+   "url": "https://www.hackdesign.org/lessons/42-the-all-encompassing-user-experience",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": ""
+  },
+  {
+   "title": "Prototyping Advanced Mobile Interactions with Framer",
+   "url": "https://www.hackdesign.org/lessons/41-prototyping-advanced-mobile-interactions-with-framer",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": "2013"
+  },
+  {
+   "title": "Essentials to Tame a Wild Beast: Pushing Prototypes with Quartz Composer",
+   "url": "https://www.hackdesign.org/lessons/40-essentials-to-tame-a-wild-beast-pushing-prototypes-with-quartz-composer",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": ""
+  },
+  {
+   "title": "The Human Element",
+   "url": "https://www.hackdesign.org/lessons/39-the-human-element",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": "2013"
+  },
+  {
+   "title": "Animation, Direct Manipulation & Feedback",
+   "url": "https://www.hackdesign.org/lessons/38-animation-direct-manipulation-feedback",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": "2013"
+  },
+  {
+   "title": "A Holistic Guide to Product Design",
+   "url": "https://www.hackdesign.org/lessons/37-a-holistic-guide-to-product-design",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": "2013"
+  },
+  {
+   "title": "Designing Habit-Forming Products",
+   "url": "https://www.hackdesign.org/lessons/36-designing-habit-forming-products",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D4 Behaviour & psychology",
+   "year": "2013"
+  },
+  {
+   "title": "The Little Things Matter",
+   "url": "https://www.hackdesign.org/lessons/35-the-little-things-matter",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": "2013"
+  },
+  {
+   "title": "Designing Quality Products",
+   "url": "https://www.hackdesign.org/lessons/34-designing-quality-products",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": "2013"
+  },
+  {
+   "title": "Summer Vacation",
+   "url": "https://www.hackdesign.org/lessons/33-summer-vacation",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D8 Self, taste & career",
+   "year": "2013"
+  },
+  {
+   "title": "Designing with Grids",
+   "url": "https://www.hackdesign.org/lessons/32-designing-with-grids",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D1 Visual craft & brand",
+   "year": "2013"
+  },
+  {
+   "title": "It's All Just Systems Design",
+   "url": "https://www.hackdesign.org/lessons/31-its-all-just-systems-design",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D6 Systems, structure & platforms",
+   "year": "2013"
+  },
+  {
+   "title": "Designing with Code",
+   "url": "https://www.hackdesign.org/lessons/30-designing-with-code",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": "2013"
+  },
+  {
+   "title": "Cultivating Compassion",
+   "url": "https://www.hackdesign.org/lessons/29-cultivating-compassion",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D8 Self, taste & career",
+   "year": "2013"
+  },
+  {
+   "title": "Effective Behavior Design",
+   "url": "https://www.hackdesign.org/lessons/28-effective-behavior-design",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D4 Behaviour & psychology",
+   "year": "2013"
+  },
+  {
+   "title": "Creative Problem Solving and Everyday Design",
+   "url": "https://www.hackdesign.org/lessons/27-creative-problem-solving-and-everyday-design",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": ""
+  },
+  {
+   "title": "Content Strategy for Interfaces",
+   "url": "https://www.hackdesign.org/lessons/26-content-strategy-for-interfaces",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D7 Language, communication & facilitation",
+   "year": "2013"
+  },
+  {
+   "title": "Power to the People: Mastering Human-Centered Design",
+   "url": "https://www.hackdesign.org/lessons/25-power-to-the-people-mastering-human-centered-design",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": "2013"
+  },
+  {
+   "title": "An Introduction to User Experience Design",
+   "url": "https://www.hackdesign.org/lessons/9-an-introduction-to-user-experience-design",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D3 Research & evidence",
+   "year": "2013"
+  },
+  {
+   "title": "Typography in Practice, and Where to Go from Here",
+   "url": "https://www.hackdesign.org/lessons/8-typography-in-practice-and-where-to-go-from-here",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D1 Visual craft & brand",
+   "year": "2013"
+  },
+  {
+   "title": "Responsive Typography in Action",
+   "url": "https://www.hackdesign.org/lessons/7-responsive-typography-in-action",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D1 Visual craft & brand",
+   "year": "2013"
+  },
+  {
+   "title": "Exploring the World of Typefaces",
+   "url": "https://www.hackdesign.org/lessons/6-exploring-the-world-of-typefaces",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D1 Visual craft & brand",
+   "year": "2013"
+  },
+  {
+   "title": "Using Icons in Interfaces",
+   "url": "https://www.hackdesign.org/lessons/24-using-icons-in-interfaces",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D1 Visual craft & brand",
+   "year": "2013"
+  },
+  {
+   "title": "Mobile App Analytics Is Not That Special",
+   "url": "https://www.hackdesign.org/lessons/23-mobile-app-analytics-is-not-that-special",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D3 Research & evidence",
+   "year": "2013"
+  },
+  {
+   "title": "Designing for Mobile Web",
+   "url": "https://www.hackdesign.org/lessons/22-designing-for-mobile-web",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D6 Systems, structure & platforms",
+   "year": "2013"
+  },
+  {
+   "title": "Designing Your First iPhone App",
+   "url": "https://www.hackdesign.org/lessons/21-designing-your-first-iphone-app",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D6 Systems, structure & platforms",
+   "year": "2013"
+  },
+  {
+   "title": "Deciding What's Good: Design Principles",
+   "url": "https://www.hackdesign.org/lessons/20-deciding-whats-good-design-principles",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": "2013"
+  },
+  {
+   "title": "Achieving Visual Hierarchy",
+   "url": "https://www.hackdesign.org/lessons/19-achieving-visual-hierarchy",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D1 Visual craft & brand",
+   "year": "2013"
+  },
+  {
+   "title": "White Space: Designing the Invisible",
+   "url": "https://www.hackdesign.org/lessons/18-white-space-designing-the-invisible",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D1 Visual craft & brand",
+   "year": "2013"
+  },
+  {
+   "title": "Building Color Confidence",
+   "url": "https://www.hackdesign.org/lessons/17-building-color-confidence",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D1 Visual craft & brand",
+   "year": "2013"
+  },
+  {
+   "title": "UI Design with Purpose",
+   "url": "https://www.hackdesign.org/lessons/16-ui-design-with-purpose",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D1 Visual craft & brand",
+   "year": "2013"
+  },
+  {
+   "title": "Making the Content Flow: Introducing Responsive Web Design",
+   "url": "https://www.hackdesign.org/lessons/15-making-the-content-flow-introducing-responsive-web-design",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D6 Systems, structure & platforms",
+   "year": "2013"
+  },
+  {
+   "title": "The Medium and Mechanics of Iconography",
+   "url": "https://www.hackdesign.org/lessons/14-the-medium-and-mechanics-of-iconography",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D1 Visual craft & brand",
+   "year": "2013"
+  },
+  {
+   "title": "Vector Interface Design",
+   "url": "https://www.hackdesign.org/lessons/13-vector-interface-design",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D1 Visual craft & brand",
+   "year": "2013"
+  },
+  {
+   "title": "Understanding the User in User Experience",
+   "url": "https://www.hackdesign.org/lessons/12-understanding-the-user-in-user-experience",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D3 Research & evidence",
+   "year": "2013"
+  },
+  {
+   "title": "Defining & Expanding User Experience",
+   "url": "https://www.hackdesign.org/lessons/11-defining-expanding-user-experience",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D4 Behaviour & psychology",
+   "year": "2013"
+  },
+  {
+   "title": "Rapid Prototyping Tools & Best Practices",
+   "url": "https://www.hackdesign.org/lessons/10-rapid-prototyping-tools-best-practices",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": "2013"
+  },
+  {
+   "title": "Dive Into Typography",
+   "url": "https://www.hackdesign.org/lessons/2-dive-into-typography",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D1 Visual craft & brand",
+   "year": "2013"
+  },
+  {
+   "title": "Typography in Product Design",
+   "url": "https://www.hackdesign.org/lessons/5-typography-in-product-design",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D1 Visual craft & brand",
+   "year": "2013"
+  },
+  {
+   "title": "Know Your Tools",
+   "url": "https://www.hackdesign.org/lessons/4-know-your-tools",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D8 Self, taste & career",
+   "year": "2013"
+  },
+  {
+   "title": "The Amazing New Mobile Web",
+   "url": "https://www.hackdesign.org/lessons/3-the-amazing-new-mobile-web",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D6 Systems, structure & platforms",
+   "year": "2013"
+  },
+  {
+   "title": "What is design? Why is it important?",
+   "url": "https://www.hackdesign.org/lessons/1-what-is-design-why-is-it-important",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": "2013"
+  },
+  {
+   "title": "Hello World",
+   "url": "https://www.hackdesign.org/lessons/0-hello-world",
+   "source": "hackdesign.org",
+   "type": "lesson",
+   "domain": "D8 Self, taste & career",
+   "year": "2013"
+  },
+  {
+   "title": "Interfaces that rearrange for each user",
+   "url": "https://www.uxtools.co/blog/interfaces-that-rearrange-for-each-user",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "Design's hardest role has a two-year clock",
+   "url": "https://www.uxtools.co/blog/design-s-hardest-role-has-a-two-year-clock",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D8 Self, taste & career",
+   "year": "2026"
+  },
+  {
+   "title": "How Linear hires designers",
+   "url": "https://www.uxtools.co/blog/how-linear-hires-designers",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D8 Self, taste & career",
+   "year": "2026"
+  },
+  {
+   "title": "7 changes in brand world-building",
+   "url": "https://www.uxtools.co/blog/7-changes-in-brand-world-building",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D1 Visual craft & brand",
+   "year": "2026"
+  },
+  {
+   "title": "I was wrong about taste",
+   "url": "https://www.uxtools.co/blog/i-was-wrong-about-taste",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D8 Self, taste & career",
+   "year": "2026"
+  },
+  {
+   "title": "How to share your design work in 2026",
+   "url": "https://www.uxtools.co/blog/how-to-share-your-design-work-in-2026",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D8 Self, taste & career",
+   "year": "2026"
+  },
+  {
+   "title": "Your team isn't AI-installed",
+   "url": "https://www.uxtools.co/blog/your-team-isn-t-ai-installed",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "The artifact stopped proving seniority",
+   "url": "https://www.uxtools.co/blog/the-artifact-stopped-proving-seniority",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D8 Self, taste & career",
+   "year": "2026"
+  },
+  {
+   "title": "The 30-second test designers fail",
+   "url": "https://www.uxtools.co/blog/the-30-second-test-designers-fail",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "The 4 levels of AI fluency",
+   "url": "https://www.uxtools.co/blog/the-4-levels-of-ai-fluency",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "Stochastic vs. deterministic design",
+   "url": "https://www.uxtools.co/blog/stochastic-vs-deterministic-design",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "Designing the next flow state",
+   "url": "https://www.uxtools.co/blog/designing-the-next-flow-state",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "Designers who vibe code are happier at work",
+   "url": "https://www.uxtools.co/blog/designers-who-vibe-code-are-happier-at-work",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "Showing up for design quality",
+   "url": "https://www.uxtools.co/blog/showing-up-for-design-quality",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": "2026"
+  },
+  {
+   "title": "This is the state of prototyping in 2026",
+   "url": "https://www.uxtools.co/blog/this-is-the-state-of-prototyping-in-2026",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": "2026"
+  },
+  {
+   "title": "What happens when \"decent design\" is the default",
+   "url": "https://www.uxtools.co/blog/what-happens-when-decent-design-is-the-default",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": "2026"
+  },
+  {
+   "title": "Pages are becoming teammates",
+   "url": "https://www.uxtools.co/blog/pages-are-becoming-teammates",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "How research teams are keeping up with build teams",
+   "url": "https://www.uxtools.co/blog/how-research-teams-are-keeping-up-with-build-teams",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D3 Research & evidence",
+   "year": "2026"
+  },
+  {
+   "title": "What is AI doing to design career ladders?",
+   "url": "https://www.uxtools.co/blog/what-is-ai-doing-to-design-career-ladders",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D8 Self, taste & career",
+   "year": "2026"
+  },
+  {
+   "title": "How prototyping has changed",
+   "url": "https://www.uxtools.co/blog/how-prototyping-has-changed",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": "2026"
+  },
+  {
+   "title": "The fog between layoffs and prototyping",
+   "url": "https://www.uxtools.co/blog/the-fog-between-layoffs-and-prototyping",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "Design debt at machine speed",
+   "url": "https://www.uxtools.co/blog/design-debt-at-machine-speed",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D6 Systems, structure & platforms",
+   "year": "2026"
+  },
+  {
+   "title": "Monitor stands have more personality than software",
+   "url": "https://www.uxtools.co/blog/monitor-stands-have-more-personality-than-software",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": "2026"
+  },
+  {
+   "title": "The portfolio is becoming a playground",
+   "url": "https://www.uxtools.co/blog/the-portfolio-is-becoming-a-playground",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D8 Self, taste & career",
+   "year": "2026"
+  },
+  {
+   "title": "The year of the connected canvas",
+   "url": "https://www.uxtools.co/blog/the-year-of-the-connected-canvas",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "Designers and \"phantom competency\"",
+   "url": "https://www.uxtools.co/blog/designers-and-phantom-competency",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D8 Self, taste & career",
+   "year": "2026"
+  },
+  {
+   "title": "\"Agent-permeable\" is the new mobile-responsive",
+   "url": "https://www.uxtools.co/blog/agent-permeable-is-the-new-mobile-responsive",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "Build interfaces to understand systems",
+   "url": "https://www.uxtools.co/blog/build-interfaces-to-understand-systems",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "The next gap in design work",
+   "url": "https://www.uxtools.co/blog/the-next-gap-in-design-work",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "Play out the end of design work",
+   "url": "https://www.uxtools.co/blog/play-out-the-end-of-design-work",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "3 ways MagicPath closes the design-to-code gap",
+   "url": "https://www.uxtools.co/blog/3-ways-magicpath-closes-the-design-to-code-gap",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "How these designers are learning today",
+   "url": "https://www.uxtools.co/blog/how-these-designers-are-learning-today",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D8 Self, taste & career",
+   "year": "2026"
+  },
+  {
+   "title": "Gen image workflows in software design",
+   "url": "https://www.uxtools.co/blog/gen-image-workflows-in-software-design",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "Discovery code and new bottlenecks",
+   "url": "https://www.uxtools.co/blog/discovery-code-and-new-bottlenecks",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2026"
+  },
+  {
+   "title": "Generative media workflows in UI design",
+   "url": "https://www.uxtools.co/blog/generative-media-workflows-in-ui-design",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2025"
+  },
+  {
+   "title": "A room full of prototypers",
+   "url": "https://www.uxtools.co/blog/a-room-full-of-prototypers",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2025"
+  },
+  {
+   "title": "The only AI workflow I use in production",
+   "url": "https://www.uxtools.co/blog/the-only-ai-workflow-i-use-in-production",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2025"
+  },
+  {
+   "title": "Your UI needs more Walt Disney",
+   "url": "https://www.uxtools.co/blog/your-ui-needs-more-walt-disney",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": "2025"
+  },
+  {
+   "title": "Motion Design's System Update",
+   "url": "https://www.uxtools.co/blog/motion-design-s-system-update",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": "2025"
+  },
+  {
+   "title": "\"Any Input = Any Output\" - What Config Was Really About",
+   "url": "https://www.uxtools.co/blog/any-input-any-output-what-config-was-really-about",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2025"
+  },
+  {
+   "title": "This design tool blew up our inbox",
+   "url": "https://www.uxtools.co/blog/this-design-tool-blew-up-our-inbox",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D7 Language, communication & facilitation",
+   "year": "2025"
+  },
+  {
+   "title": "You Can't Prompt This",
+   "url": "https://www.uxtools.co/blog/you-can-t-prompt-this",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": "2025"
+  },
+  {
+   "title": "The Year Design Communities Go Small (and Real)",
+   "url": "https://www.uxtools.co/blog/the-year-design-communities-go-small-(and-real)",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D8 Self, taste & career",
+   "year": "2025"
+  },
+  {
+   "title": "Brand as product's secret weapon",
+   "url": "https://www.uxtools.co/blog/brand-as-product-s-secret-weapon",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D1 Visual craft & brand",
+   "year": "2025"
+  },
+  {
+   "title": "12 Ways to Utilize Other Departments in User Research",
+   "url": "https://www.uxtools.co/blog/12-ways-to-utilize-other-departments-in-user-research",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D3 Research & evidence",
+   "year": "2022"
+  },
+  {
+   "title": "Ideas from Developers on Handling UX Feedback",
+   "url": "https://www.uxtools.co/blog/ideas-from-developers-on-handling-ux-feedback",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D7 Language, communication & facilitation",
+   "year": "2022"
+  },
+  {
+   "title": "What Developers Need from UX Research",
+   "url": "https://www.uxtools.co/blog/what-developers-need-from-ux-research",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D3 Research & evidence",
+   "year": "2022"
+  },
+  {
+   "title": "Translating User Research Into Design",
+   "url": "https://www.uxtools.co/blog/translating-user-research-into-design",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D3 Research & evidence",
+   "year": "2022"
+  },
+  {
+   "title": "5 Principles of Exceptional Case Studies in UX Portfolios",
+   "url": "https://www.uxtools.co/blog/5-principles-of-exceptional-case-studies-in-ux-portfolios",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D8 Self, taste & career",
+   "year": "2022"
+  },
+  {
+   "title": "Switching Careers to UX Design",
+   "url": "https://www.uxtools.co/blog/switching-careers-to-ux-design",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D8 Self, taste & career",
+   "year": "2022"
+  },
+  {
+   "title": "Running an Effective Design Kickoff Meeting",
+   "url": "https://www.uxtools.co/blog/running-an-effective-design-kickoff-meeting",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D7 Language, communication & facilitation",
+   "year": "2021"
+  },
+  {
+   "title": "How Designers Can Prevent User Errors",
+   "url": "https://www.uxtools.co/blog/how-designers-can-prevent-user-errors",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": "2021"
+  },
+  {
+   "title": "When to Skip UX Research",
+   "url": "https://www.uxtools.co/blog/when-to-skip-ux-research",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D3 Research & evidence",
+   "year": "2021"
+  },
+  {
+   "title": "17 Tools That Will Streamline Your UX Research",
+   "url": "https://www.uxtools.co/blog/17-tools-that-will-streamline-your-ux-research",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D3 Research & evidence",
+   "year": "2021"
+  },
+  {
+   "title": "Quicker UX Research Synthesis",
+   "url": "https://www.uxtools.co/blog/quicker-ux-research-synthesis",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D3 Research & evidence",
+   "year": "2021"
+  },
+  {
+   "title": "The Best UX Research Methods in a Pinch",
+   "url": "https://www.uxtools.co/blog/the-best-ux-research-methods-in-a-pinch",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D3 Research & evidence",
+   "year": "2021"
+  },
+  {
+   "title": "Fast and Cheap Ways to Find UX Research Participants",
+   "url": "https://www.uxtools.co/blog/fast-and-cheap-ways-to-find-ux-research-participants",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D3 Research & evidence",
+   "year": "2021"
+  },
+  {
+   "title": "How to Maximize the User Research You're Already Doing",
+   "url": "https://www.uxtools.co/blog/how-to-maximize-the-user-research-you-re-already-doing",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D3 Research & evidence",
+   "year": "2021"
+  },
+  {
+   "title": "33 Activity Ideas for Remote UX Workshops",
+   "url": "https://www.uxtools.co/blog/33-activity-ideas-for-remote-ux-workshops",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D7 Language, communication & facilitation",
+   "year": "2021"
+  },
+  {
+   "title": "What No One Explains About the Design Process",
+   "url": "https://www.uxtools.co/blog/what-no-one-explains-about-the-design-process",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D5 Product thinking, quality & philosophy",
+   "year": "2021"
+  },
+  {
+   "title": "Fixing User Personas",
+   "url": "https://www.uxtools.co/blog/fixing-user-personas",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D3 Research & evidence",
+   "year": "2021"
+  },
+  {
+   "title": "7 Takeaways from the 2020 Design Tools Survey",
+   "url": "https://www.uxtools.co/blog/7-takeaways-from-the-2020-design-tools-survey",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D10 AI-native practice & design ops",
+   "year": "2020"
+  },
+  {
+   "title": "User Research: Is It Worth It?",
+   "url": "https://www.uxtools.co/blog/user-research-is-it-worth-it",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D3 Research & evidence",
+   "year": "2020"
+  },
+  {
+   "title": "UX Lessons from Big Sur",
+   "url": "https://www.uxtools.co/blog/ux-lessons-from-big-sur",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": "2020"
+  },
+  {
+   "title": "The Psychology of User Decisions",
+   "url": "https://www.uxtools.co/blog/the-psychology-of-user-decisions",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D4 Behaviour & psychology",
+   "year": "2020"
+  },
+  {
+   "title": "Usability Testing in 4 Simplified Steps",
+   "url": "https://www.uxtools.co/blog/usability-testing-in-4-simplified-steps",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D3 Research & evidence",
+   "year": "2020"
+  },
+  {
+   "title": "The How (and Why) of User Flows",
+   "url": "https://www.uxtools.co/blog/the-how-(and-why)-of-user-flows",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D6 Systems, structure & platforms",
+   "year": "2020"
+  },
+  {
+   "title": "UX Design for Navigation Menus",
+   "url": "https://www.uxtools.co/blog/ux-design-for-navigation-menus",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D6 Systems, structure & platforms",
+   "year": "2020"
+  },
+  {
+   "title": "7 Practical Tips for Better Microcopy",
+   "url": "https://www.uxtools.co/blog/7-practical-tips-for-better-microcopy",
+   "source": "uxtools.co",
+   "type": "article",
+   "domain": "D7 Language, communication & facilitation",
+   "year": "2020"
+  },
+  {
+   "title": "User Interview",
+   "url": "https://www.uxtools.co/challenges/user-interview",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D3 Research & evidence",
+   "year": ""
+  },
+  {
+   "title": "Journey Map",
+   "url": "https://www.uxtools.co/challenges/journey-map",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D3 Research & evidence",
+   "year": ""
+  },
+  {
+   "title": "Competitive Analysis",
+   "url": "https://www.uxtools.co/challenges/competitive-analysis",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D3 Research & evidence",
+   "year": ""
+  },
+  {
+   "title": "User Persona",
+   "url": "https://www.uxtools.co/challenges/user-persona",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D3 Research & evidence",
+   "year": ""
+  },
+  {
+   "title": "Empathy Map",
+   "url": "https://www.uxtools.co/challenges/empathy-map",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D3 Research & evidence",
+   "year": ""
+  },
+  {
+   "title": "User Flow",
+   "url": "https://www.uxtools.co/challenges/user-flow",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D6 Systems, structure & platforms",
+   "year": ""
+  },
+  {
+   "title": "Wireframe",
+   "url": "https://www.uxtools.co/challenges/wireframe",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": ""
+  },
+  {
+   "title": "Digital Prototype",
+   "url": "https://www.uxtools.co/challenges/digital-prototype",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": ""
+  },
+  {
+   "title": "Usability Test",
+   "url": "https://www.uxtools.co/challenges/usability-test",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D3 Research & evidence",
+   "year": ""
+  },
+  {
+   "title": "Card Sorting",
+   "url": "https://www.uxtools.co/challenges/card-sorting",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D3 Research & evidence",
+   "year": ""
+  },
+  {
+   "title": "Survey",
+   "url": "https://www.uxtools.co/challenges/survey",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D3 Research & evidence",
+   "year": ""
+  },
+  {
+   "title": "Heuristic Evaluation",
+   "url": "https://www.uxtools.co/challenges/heuristic-evaluation",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D3 Research & evidence",
+   "year": ""
+  },
+  {
+   "title": "Diary Study",
+   "url": "https://www.uxtools.co/challenges/diary-study",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D3 Research & evidence",
+   "year": ""
+  },
+  {
+   "title": "Design System",
+   "url": "https://www.uxtools.co/challenges/design-system",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D6 Systems, structure & platforms",
+   "year": ""
+  },
+  {
+   "title": "Accessibility",
+   "url": "https://www.uxtools.co/challenges/accessibility",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D6 Systems, structure & platforms",
+   "year": ""
+  },
+  {
+   "title": "Form",
+   "url": "https://www.uxtools.co/challenges/form",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D2 Interaction, motion & prototyping",
+   "year": ""
+  },
+  {
+   "title": "Information Architecture",
+   "url": "https://www.uxtools.co/challenges/information-architecture",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D6 Systems, structure & platforms",
+   "year": ""
+  },
+  {
+   "title": "Onboarding",
+   "url": "https://www.uxtools.co/challenges/onboarding",
+   "source": "uxtools.co",
+   "type": "challenge",
+   "domain": "D4 Behaviour & psychology",
+   "year": ""
+  },
+  {
+   "title": "UX Tools Design Tools Survey 2024 (report)",
+   "url": "https://www.uxtools.co/survey/introduction/about-this-report",
+   "source": "uxtools.co",
+   "type": "survey",
+   "domain": "D10 AI-native practice & design ops",
+   "year": ""
+  }
+ ]
+}

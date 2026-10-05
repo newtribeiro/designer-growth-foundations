@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Designer Growth Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: astrolabe-style radial map (categories as sectors, cross-links bundled through the centre) + side dossier; tabs for coverage, cross-check and index */
+:root{
+  --bg:#f4f6f9; --panel:#ffffff; --ink:#18202d; --muted:#5a6476; --line:#d8dde6; --soft:#eceff4; --focus:#2b59c3;
+  --f-display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body:"IBM Plex Sans Condensed","Arial Narrow", system-ui, sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --c-mode:hsl(218 62% 42%); --c-domain:hsl(174 70% 28%); --c-module:hsl(328 62% 42%);
+  --c-project:hsl(24 80% 40%); --c-tendency:hsl(356 64% 44%); --c-science:hsl(140 45% 32%); --c-lineage:hsl(40 70% 34%);
+  --c-psych:hsl(268 46% 48%); --c-source:hsl(200 30% 38%);
+  --ok:hsl(150 50% 32%); --warn:hsl(36 85% 38%); --bad:hsl(356 64% 44%);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f131a; --panel:#161b24; --ink:#e5e9f0; --muted:#9aa4b5; --line:#2a3240; --soft:#1d2430; --focus:#7aa2ff;
+  --c-mode:hsl(218 80% 72%); --c-domain:hsl(174 55% 58%); --c-module:hsl(328 70% 72%);
+  --c-project:hsl(24 85% 66%); --c-tendency:hsl(356 75% 70%); --c-science:hsl(140 45% 62%); --c-lineage:hsl(40 75% 64%);
+  --c-psych:hsl(268 65% 76%); --c-source:hsl(200 35% 66%);
+  --ok:hsl(150 45% 60%); --warn:hsl(38 85% 62%); --bad:hsl(356 75% 70%); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f131a; --panel:#161b24; --ink:#e5e9f0; --muted:#9aa4b5; --line:#2a3240; --soft:#1d2430; --focus:#7aa2ff;
+  --c-mode:hsl(218 80% 72%); --c-domain:hsl(174 55% 58%); --c-module:hsl(328 70% 72%);
+  --c-project:hsl(24 85% 66%); --c-tendency:hsl(356 75% 70%); --c-science:hsl(140 45% 62%); --c-lineage:hsl(40 75% 64%);
+  --c-psych:hsl(268 65% 76%); --c-source:hsl(200 35% 66%);
+  --ok:hsl(150 45% 60%); --warn:hsl(38 85% 62%); --bad:hsl(356 75% 70%); color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45;margin:0;padding-inline:16px;padding-block:20px 40px}
+.wrap{max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(26px,3.4vw,38px);letter-spacing:-.01em;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:2px 0 0;max-width:70ch}
+.stats{display:flex;gap:18px;flex-wrap:wrap;font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.stats b{display:block;font-size:20px;color:var(--ink);font-weight:500;font-variant-numeric:tabular-nums}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;border-block:1px solid var(--line);padding-block:10px}
+.tabs{display:flex;gap:2px;background:var(--soft);padding:3px;border-radius:8px}
+.tabs button{all:unset;cursor:pointer;padding:6px 12px;border-radius:6px;font-weight:600;font-size:14px;color:var(--muted)}
+.tabs button[aria-selected="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 2px rgb(0 0 0 / .12)}
+.tabs button:focus-visible,.chip:focus-visible,input:focus-visible,.rel a:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+input[type=search]{flex:1 1 220px;min-width:0;font:inherit;padding:7px 10px;border:1px solid var(--line);border-radius:7px;background:var(--panel);color:var(--ink)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:12.5px;padding:3px 9px;border:1px solid var(--line);border-radius:999px;color:var(--ink);background:var(--panel)}
+.chip i{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.chip[aria-pressed="false"]{opacity:.45;text-decoration:line-through}
+.main{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:14px;align-items:start}
+@media (max-width:980px){.main{grid-template-columns:1fr}}
+.mapbox{background:var(--panel);border:1px solid var(--line);border-radius:10px;position:relative;overflow:hidden;aspect-ratio:1/1;max-height:88vh;width:100%}
+.mapbox svg{width:100%;height:100%;display:block;touch-action:none;cursor:grab}
+.zoom{position:absolute;right:10px;bottom:10px;display:flex;gap:4px}
+.zoom button{font:600 14px var(--f-mono);width:30px;height:30px;border-radius:6px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+.legendhint{position:absolute;left:12px;bottom:10px;font-size:12px;color:var(--muted);max-width:60%}
+svg text{font-family:var(--f-body);fill:var(--ink)}
+.leaf text{font-size:10.5px}
+.leaf.dim text{opacity:.18}.leaf.hit text{font-weight:600}
+.leaf.sel text{font-weight:700;text-decoration:underline}
+.link{fill:none;stroke-opacity:.13;stroke-width:1}
+.link.dim{stroke-opacity:.025}.link.hot{stroke-opacity:.85;stroke-width:1.6}
+.catlabel{font-family:var(--f-display);font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+aside{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:10px;max-height:88vh;overflow:auto;min-width:0}
+aside h2{font-family:var(--f-display);font-size:22px;margin:0;line-height:1.15;text-wrap:balance}
+.tag{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.tag i{width:9px;height:9px;border-radius:2px;background:var(--c)}
+.kv{font-size:13.5px;margin:0;display:grid;grid-template-columns:auto 1fr;gap:3px 10px}
+.kv dt{color:var(--muted)}.kv dd{margin:0}
+.rel h3{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:8px 0 4px}
+.rel ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:5px}
+.rel a{cursor:pointer;font-size:13px;padding:2px 8px;border-radius:5px;border:1px solid var(--line);color:var(--ink);text-decoration:none;display:inline-flex;gap:5px;align-items:center}
+.rel a i{width:7px;height:7px;border-radius:50%;background:var(--c)}
+.items{font-size:13px;margin:0;padding-left:18px}.items li{margin:3px 0}
+.items a{color:var(--focus)}
+.mono{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.view{display:flex;flex-direction:column;gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;min-width:0}
+.card h2{font-family:var(--f-display);font-size:20px;margin:0 0 8px}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13.5px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+td.n{text-align:right;font-family:var(--f-mono)}
+td.heat{position:relative}
+td.zero{color:var(--bad);font-weight:600}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.metric{display:flex;justify-content:space-between;gap:10px;padding:6px 0;border-bottom:1px solid var(--line);font-size:14px}
+.metric b{font-family:var(--f-mono);font-weight:500}
+.pill{font-size:11.5px;padding:1px 7px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.pill.ok{color:var(--ok)}.pill.warn{color:var(--warn)}.pill.bad{color:var(--bad)}
+.cloud{display:flex;flex-wrap:wrap;gap:5px}
+.cloud span{font-size:12.5px;padding:2px 7px;border-radius:5px;background:var(--soft)}
+.idxcat{columns:3 260px;column-gap:24px;font-size:13.5px}
+.idxcat div{break-inside:avoid;margin:0 0 3px}
+.idxcat a{cursor:pointer;color:var(--ink)}
+.idxcat a:hover{color:var(--focus)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Designer Growth Map</h1>
+      <p class="sub">The semantic network behind the <span class="mono">designer-growth-foundations</span> skill: every mode, domain, deep module, tendency, lineage strand and psychology principle, and how they connect. Select any node to cross-check its relations.</p>
+    </div>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <div class="bar">
+    <div class="tabs" role="tablist">
+      <button role="tab" id="tab-map" aria-selected="true" data-v="map">Map</button>
+      <button role="tab" id="tab-cov" aria-selected="false" data-v="cov">Coverage</button>
+      <button role="tab" id="tab-chk" aria-selected="false" data-v="chk">Cross-check</button>
+      <button role="tab" id="tab-idx" aria-selected="false" data-v="idx">Index</button>
+    </div>
+    <input type="search" id="q" placeholder="Find a node — e.g. alarm, tokens, Fitts" aria-label="Find a node">
+  </div>
+  <div class="chips" id="chips"></div>
+
+  <section class="view" id="v-map">
+    <div class="main">
+      <div class="mapbox" id="mapbox">
+        <svg id="svg" role="img" aria-label="Radial semantic map of the skill"></svg>
+        <div class="legendhint">Lines are semantic relations, bundled through their categories. Drag to pan, scroll or use +/− to zoom.</div>
+        <div class="zoom"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zre" aria-label="Reset view">⟲</button></div>
+      </div>
+      <aside id="panel" aria-live="polite"></aside>
+    </div>
+  </section>
+  <section class="view" id="v-cov" hidden></section>
+  <section class="view" id="v-chk" hidden></section>
+  <section class="view" id="v-idx" hidden></section>
+</div>
+
+<script type="application/json" id="data">__DATA__</script>
+<script type="application/json" id="lint">__LINT__</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const D=JSON.parse(document.getElementById('data').textContent);
+const LINT=JSON.parse(document.getElementById('lint').textContent);
+const CATS=D.cats, CATN=Object.fromEntries(CATS);
+const N=new Map(D.nodes.map(n=>[n.id,n]));
+const adj=new Map(D.nodes.map(n=>[n.id,[]]));
+D.edges.forEach(e=>{adj.get(e.s).push({rel:e.rel,o:e.t,dir:'out'});adj.get(e.t).push({rel:e.rel,o:e.s,dir:'in'});});
+const col=c=>`var(--c-${c})`;
+const on=new Set(CATS.map(c=>c[0]));
+let sel=null;
+
+// stats
+const st=[['Pages',D.nodes.length],['Relations',D.edges.length],['Source items',D.lessons.length],['Principles',D.nodes.filter(n=>n.cat==='psych').length]];
+document.getElementById('stats').innerHTML=st.map(([k,v])=>`<div><b>${v}</b>${k}</div>`).join('');
+
+// chips
+const chips=document.getElementById('chips');
+CATS.forEach(([c,name])=>{const b=document.createElement('button');b.className='chip';b.style.setProperty('--c',col(c));b.setAttribute('aria-pressed','true');
+ const cnt=D.nodes.filter(n=>n.cat===c).length;b.innerHTML=`<i></i>${name} <span class="mono">${cnt}</span>`;
+ b.onclick=()=>{on.has(c)?on.delete(c):on.add(c);b.setAttribute('aria-pressed',on.has(c));draw();};chips.appendChild(b);});
+
+// map
+const svg=d3.select('#svg'), R=430, W=1300;
+svg.attr('viewBox',[-W/2,-W/2,W,W]);
+const g=svg.append('g');
+const zoom=d3.zoom().scaleExtent([.5,6]).on('zoom',e=>g.attr('transform',e.transform));
+svg.call(zoom);
+document.getElementById('zin').onclick=()=>svg.transition().call(zoom.scaleBy,1.4);
+document.getElementById('zout').onclick=()=>svg.transition().call(zoom.scaleBy,1/1.4);
+document.getElementById('zre').onclick=()=>svg.transition().call(zoom.transform,d3.zoomIdentity);
+let leaves=[], byId=new Map();
+function draw(){
+  g.selectAll('*').remove();
+  const children=CATS.filter(([c])=>on.has(c)).map(([c,name])=>({id:'cat_'+c,name,cat:c,children:D.nodes.filter(n=>n.cat===c)
+     .sort((a,b)=>(a.cluster||'').localeCompare(b.cluster||'')||a.label.localeCompare(b.label,undefined,{numeric:true})).map(n=>({id:n.id,name:n.label,cat:c}))}));
+  const root=d3.hierarchy({id:'root',children});
+  d3.cluster().size([360,R]).separation((a,b)=>a.parent===b.parent?1:3)(root);
+  leaves=root.leaves(); byId=new Map(leaves.map(l=>[l.data.id,l]));
+  const line=d3.lineRadial().curve(d3.curveBundle.beta(.82)).radius(d=>d.y).angle(d=>d.x/180*Math.PI);
+  const links=D.edges.filter(e=>byId.has(e.s)&&byId.has(e.t)).map(e=>({e,path:byId.get(e.s).path(byId.get(e.t))}));
+  g.append('g').selectAll('path').data(links).join('path').attr('class','link').attr('d',d=>line(d.path))
+    .style('stroke',d=>col(N.get(d.e.s).cat));
+  // category arcs + labels
+  const arc=d3.arc().innerRadius(R-6).outerRadius(R-2);
+  root.children?.forEach(c=>{const ls=c.leaves();const a0=(ls[0].x-.8)/180*Math.PI,a1=(ls[ls.length-1].x+.8)/180*Math.PI;
+    g.append('path').attr('d',arc({startAngle:a0,endAngle:a1})).style('fill',col(c.data.cat));
+    const mid=(ls[0].x+ls[ls.length-1].x)/2, r=R-22;
+    const t=g.append('text').attr('class','catlabel').attr('text-anchor','middle').style('fill',col(c.data.cat))
+      .attr('transform',`rotate(${mid-90}) translate(${r},0) rotate(${mid<180?90:-90})`).text(ls.length>5?c.data.name:'');});
+  const node=g.append('g').selectAll('g').data(leaves).join('g').attr('class','leaf')
+    .attr('transform',d=>`rotate(${d.x-90}) translate(${d.y+4},0)`);
+  node.append('circle').attr('r',2.6).style('fill',d=>col(d.data.cat));
+  node.append('text').attr('dy','0.32em').attr('x',d=>d.x<180?7:-7).attr('text-anchor',d=>d.x<180?'start':'end')
+    .attr('transform',d=>d.x>=180?'rotate(180)':null).text(d=>d.data.name.length>34?d.data.name.slice(0,33)+'…':d.data.name)
+    .style('cursor','pointer');
+  node.on('mouseenter',(ev,d)=>hl(d.data.id)).on('mouseleave',()=>hl(sel)).on('click',(ev,d)=>select(d.data.id));
+  node.append('title').text(d=>d.data.name);
+  hl(sel); search();
+}
+function hl(id){
+  const nb=new Set(id?[id,...adj.get(id).map(r=>r.o)]:[]);
+  g.selectAll('.link').classed('hot',d=>id&&(d.e.s===id||d.e.t===id)).classed('dim',d=>id&&!(d.e.s===id||d.e.t===id));
+  g.selectAll('.leaf').classed('dim',d=>id&&!nb.has(d.data.id)).classed('sel',d=>d.data.id===sel);
+}
+function select(id){sel=id;hl(id);panel(id);}
+function panel(id){
+  const p=document.getElementById('panel');
+  if(!id){p.innerHTML=`<span class="tag">How to read this</span><h2>Pick a node</h2>
+   <p>The ring groups ${D.nodes.length} wiki pages into ${CATS.length} categories. Each line is a typed relation (deepens, explained by, roots of, risk in…). Hover to trace a node's links, click to open its dossier.</p>
+   <p class="mono">Wiki files: wiki/&lt;page&gt;.md · wiki/index.md · wiki/log.md · wiki/lint-report.md</p>`;return;}
+  const n=N.get(id), groups={};
+  adj.get(id).forEach(r=>{const k=r.dir==='out'?r.rel:'← '+r.rel;(groups[k]=groups[k]||new Set()).add(r.o);});
+  const attrs=[['Evidence',n.grade],['Cluster',n.cluster],['Decision cycle',n.cycle],['Tensions',n.tens],['Module file',n.file]].filter(a=>a[1]);
+  let items='';
+  if(n.cat==='domain'){const code=n.label.split(' ')[0];const it=D.lessons.filter(x=>x.d===code);
+    items=`<div class="rel"><h3>Source items (${it.length})</h3><ol class="items">${it.map(x=>`<li><a href="${x.u}" target="_blank" rel="noopener">${esc(x.t)}</a> <span class="mono">${x.s==='HD'?'HD':'UXT'} · ${x.k}</span></li>`).join('')}</ol></div>`;}
+  p.innerHTML=`<span class="tag" style="--c:${col(n.cat)}"><i></i>${CATN[n.cat]}</span><h2>${esc(n.label)}</h2>
+   ${n.desc?`<p>${esc(n.desc)}</p>`:''}
+   ${attrs.length?`<dl class="kv">${attrs.map(([k,v])=>`<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>`:''}
+   <div class="rel">${Object.entries(groups).sort().map(([k,s])=>`<h3>${esc(k)} (${s.size})</h3><ul>${[...s].map(o=>`<li><a data-id="${o}" style="--c:${col(N.get(o).cat)}"><i></i>${esc(N.get(o).label)}</a></li>`).join('')}</ul>`).join('')}</div>
+   ${items}<p class="mono">Degree ${adj.get(id).length} · wiki/${slug(n)}.md</p>`;
+  p.querySelectorAll('a[data-id]').forEach(a=>{a.tabIndex=0;a.onclick=()=>select(a.dataset.id);a.onkeydown=e=>{if(e.key==='Enter')select(a.dataset.id)};});
+}
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const slug=n=>(n.cat==='tendency'?'tendency-':'')+n.label.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/-+/g,'-').replace(/^-|-$/g,'').slice(0,60);
+const q=document.getElementById('q');
+function search(){const s=q.value.trim().toLowerCase();
+  g.selectAll('.leaf').classed('hit',d=>s&&(d.data.name.toLowerCase().includes(s)||(N.get(d.data.id).desc||'').toLowerCase().includes(s)));
+  if(s&&!sel) g.selectAll('.leaf').classed('dim',d=>!(d.data.name.toLowerCase().includes(s)||(N.get(d.data.id).desc||'').toLowerCase().includes(s)));
+  if(!s&&!sel) hl(null);}
+q.addEventListener('input',search);
+q.addEventListener('keydown',e=>{if(e.key==='Enter'){const s=q.value.trim().toLowerCase();const m=D.nodes.find(n=>n.label.toLowerCase().includes(s));if(m){show('map');select(m.id);}}});
+
+// tabs
+function show(v){document.querySelectorAll('.tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.v===v));
+  ['map','cov','chk','idx'].forEach(k=>document.getElementById('v-'+k).hidden=k!==v);
+  document.getElementById('chips').hidden=v!=='map';}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>show(b.dataset.v));
+function goto(id){show('map');select(id);document.getElementById('mapbox').scrollIntoView({behavior:'smooth',block:'start'});}
+
+// coverage
+(function(){const cols=[['hd','Hack Design'],['ux','uxtools articles'],['ch','Challenges'],['mods','Deep modules'],['psy','Psych anchors'],['lin','Lineage']];
+ const max={};cols.forEach(([k])=>max[k]=Math.max(...LINT.cov.map(r=>r[k]),1));
+ const rows=LINT.cov.map(r=>{const id=D.nodes.find(n=>n.label===r.d).id;
+  return `<tr><td><a style="cursor:pointer;color:var(--ink)" data-id="${id}">${esc(r.d)}</a></td>${cols.map(([k])=>{const v=r[k];const z=v===0&&k!=='ch';
+   return `<td class="n heat ${z?'zero':''}" style="background:color-mix(in srgb,var(--c-domain) ${Math.round(v/max[k]*38)}%,transparent)">${v}</td>`}).join('')}</tr>`}).join('');
+ document.getElementById('v-cov').innerHTML=`<div class="card"><h2>Coverage by domain</h2><p class="sub">Cell shade scales with the column's highest value. Red zeros show where the next ingest should add material.</p>
+  <div class="scroll"><table><thead><tr><th>Domain</th>${cols.map(c=>`<th>${c[1]}</th>`).join('')}</tr></thead><tbody>${rows}</tbody></table></div></div>
+  <div class="card"><h2>What the matrix says</h2><ul class="items">
+   <li>D10 AI-native practice has 22 uxtools articles and no lineage strand.</li>
+   <li>D7 Language has no lineage strand.</li>
+   <li>D3 Research is deep in sources and challenges but has no deep module.</li></ul></div>`;
+ document.querySelectorAll('#v-cov a[data-id]').forEach(a=>a.onclick=()=>goto(a.dataset.id));})();
+
+// cross-check
+(function(){
+ const weak=LINT.weak.map(i=>N.get(i)).filter(Boolean);
+ const stale=[['Xbox Accessibility Guidelines version','Module G','Yearly'],['Figma DTCG export, MCP, Check designs','Module T','Quarterly'],['Style Dictionary version','Module T','Quarterly'],['WCAG 3 status, APCA','Module A','Twice a year'],['ADA Title II, EAA, ACA rules','Module A','Twice a year'],['uxtools stats and new articles','D10','Monthly'],['WebAIM Million','Module A','Each spring'],['StatCan / WHO prevalence','Module A','Yearly']];
+ const fixed=['Alert tokens unified: color.alert.warning | caution | advisory; success in color.status.*','Advisory colour: any except red or green (14 CFR 25.1322)','Alarm flood: ≥ 10 alarms in 10 min (ISA-18.2)','uxtools 4.19 vs 3.42 = design-system satisfaction, not handoff','Power pose: hormones/risk failed to replicate; self-reported power did'];
+ document.getElementById('v-chk').innerHTML=`<div class="grid2">
+  <div class="card"><h2>Lint summary</h2>
+   <div class="metric">Evidence re-verified (19 claims)<span><span class="pill ok">18 confirmed</span> <span class="pill warn">1 corrected</span></span></div>
+   <div class="metric">Skill test, 4 prompts × 9 checks<span class="pill ok">≈90% before fixes</span></div>
+   <div class="metric">Contradictions<span class="pill ok">5 resolved</span></div>
+   <div class="metric">Skill defects<span><span class="pill ok">15 fixed</span> <span class="pill warn">2 open</span></span></div>
+   <div class="metric">Principle names missing from the catalogue<b>${(LINT.unknownPrinciples||[]).length}</b></div>
+   <div class="metric">Weak links (≤ 1 relation)<b>${weak.length}</b></div>
+   <div class="metric">Missing cross-references<b>${(LINT.miss||[]).length}</b></div>
+   <p class="mono">Run 2026-10-04 · full report: wiki/lint-report.md</p></div>
+  <div class="card"><h2>Contradictions resolved</h2><ol class="items">${fixed.map(f=>`<li>${esc(f)}</li>`).join('')}</ol></div>
+  <div class="card"><h2>Weak links</h2><p class="sub">Nodes with one relation or none. Click to inspect; strengthen on the next ingest.</p>
+   <div class="rel"><ul>${weak.map(n=>`<li><a data-id="${n.id}" style="--c:${col(n.cat)}"><i></i>${esc(n.label)}</a></li>`).join('')}</ul></div></div>
+  <div class="card"><h2>Stale-claims register</h2><div class="scroll"><table><thead><tr><th>Claim</th><th>Where</th><th>Re-check</th></tr></thead><tbody>${stale.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>
+  <div class="card"><h2>Principle names to check (${(LINT.unknownPrinciples||[]).length})</h2><p class="sub">Italic names in SKILL.md that look like principles but are missing from data/psych-principles.json.</p><div class="cloud">${(LINT.unknownPrinciples||[]).map(p=>`<span>${esc(p)}</span>`).join('')||'<span>None</span>'}</div></div>
+ </div>`;
+ document.querySelectorAll('#v-chk a[data-id]').forEach(a=>{a.tabIndex=0;a.onclick=()=>goto(a.dataset.id)});})();
+
+// index
+(function(){document.getElementById('v-idx').innerHTML=CATS.map(([c,name])=>{const ns=D.nodes.filter(n=>n.cat===c).sort((a,b)=>a.label.localeCompare(b.label,undefined,{numeric:true}));
+ return `<div class="card"><h2 style="color:${col(c)}">${name} <span class="mono">${ns.length}</span></h2><div class="idxcat">${ns.map(n=>`<div><a data-id="${n.id}">${esc(n.label)}</a> <span class="mono">${adj.get(n.id).length}</span></div>`).join('')}</div></div>`}).join('');
+ document.querySelectorAll('#v-idx a[data-id]').forEach(a=>a.onclick=()=>goto(a.dataset.id));})();
+
+draw(); panel(null);
+</script>
+
+</body>
+</html>

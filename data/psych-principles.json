@@ -1,0 +1,371 @@
+{
+ "source": "Principle names from growth.design's cognitive-bias catalogue (https://growth.design/psychology); cluster, decision-cycle step and evidence grade assigned by the skill author.",
+ "principles": [
+  {
+   "name": "Aesthetic-Usability Effect",
+   "cluster": "C1 Perceptual organisation & attention",
+   "cycle": "Filter",
+   "grade": "Contested"
+  },
+  {
+   "name": "Anchoring Bias",
+   "cluster": "C4 Value, reference points & choice architecture",
+   "cycle": "Filter",
+   "grade": "Strong"
+  },
+  {
+   "name": "Bandwagon Effect",
+   "cluster": "C5 Social influence & trust",
+   "cycle": "Act",
+   "grade": "Moderate"
+  },
+  {
+   "name": "Banner Blindness",
+   "cluster": "C1 Perceptual organisation & attention",
+   "cycle": "Filter",
+   "grade": "Strong"
+  },
+  {
+   "name": "Centre-Stage Effect",
+   "cluster": "C1 Perceptual organisation & attention",
+   "cycle": "Filter",
+   "grade": "Moderate"
+  },
+  {
+   "name": "Chunking",
+   "cluster": "C2 Cognitive load & complexity management",
+   "cycle": "Remember",
+   "grade": "Strong"
+  },
+  {
+   "name": "Cognitive Load",
+   "cluster": "C2 Cognitive load & complexity management",
+   "cycle": "Filter",
+   "grade": "Strong"
+  },
+  {
+   "name": "Confirmation Bias",
+   "cluster": "C9 Belief, judgment & self-perception biases (user side)",
+   "cycle": "Filter",
+   "grade": "Strong"
+  },
+  {
+   "name": "Contrast",
+   "cluster": "C1 Perceptual organisation & attention",
+   "cycle": "Filter",
+   "grade": "Strong"
+  },
+  {
+   "name": "Curse of Knowledge",
+   "cluster": "C10 Designer, research & systems-thinking biases (team side)",
+   "cycle": "Interpret",
+   "grade": "Moderate"
+  },
+  {
+   "name": "Default Bias",
+   "cluster": "C4 Value, reference points & choice architecture",
+   "cycle": "Act",
+   "grade": "Strong"
+  },
+  {
+   "name": "Delighters",
+   "cluster": "C7 Autonomy, competence & ownership",
+   "cycle": "Remember",
+   "grade": "Practitioner"
+  },
+  {
+   "name": "Dunning-Kruger Effect",
+   "cluster": "C9 Belief, judgment & self-perception biases (user side)",
+   "cycle": "Act",
+   "grade": "Contested"
+  },
+  {
+   "name": "Empathy Gap",
+   "cluster": "C10 Designer, research & systems-thinking biases (team side)",
+   "cycle": "Filter",
+   "grade": "Moderate"
+  },
+  {
+   "name": "Expectations Bias",
+   "cluster": "C9 Belief, judgment & self-perception biases (user side)",
+   "cycle": "Filter",
+   "grade": "Moderate"
+  },
+  {
+   "name": "False Consensus Effect",
+   "cluster": "C5 Social influence & trust",
+   "cycle": "Act",
+   "grade": "Strong"
+  },
+  {
+   "name": "Familiarity Bias",
+   "cluster": "C3 Interaction clarity & mental models",
+   "cycle": "Interpret",
+   "grade": "Strong"
+  },
+  {
+   "name": "Feedback Loop",
+   "cluster": "C3 Interaction clarity & mental models",
+   "cycle": "Filter",
+   "grade": "Moderate"
+  },
+  {
+   "name": "Feedforward",
+   "cluster": "C3 Interaction clarity & mental models",
+   "cycle": "Interpret",
+   "grade": "Practitioner"
+  },
+  {
+   "name": "Fitts's Law",
+   "cluster": "C2 Cognitive load & complexity management",
+   "cycle": "Filter",
+   "grade": "Strong"
+  },
+  {
+   "name": "Flow State",
+   "cluster": "C7 Autonomy, competence & ownership",
+   "cycle": "Interpret",
+   "grade": "Contested"
+  },
+  {
+   "name": "Framing",
+   "cluster": "C4 Value, reference points & choice architecture",
+   "cycle": "Filter",
+   "grade": "Strong"
+  },
+  {
+   "name": "Goal Gradient Effect",
+   "cluster": "C6 Triggers, rewards & habit loops",
+   "cycle": "Interpret",
+   "grade": "Strong"
+  },
+  {
+   "name": "Halo Effect",
+   "cluster": "C5 Social influence & trust",
+   "cycle": "Interpret",
+   "grade": "Strong"
+  },
+  {
+   "name": "Hawthorne Effect",
+   "cluster": "C10 Designer, research & systems-thinking biases (team side)",
+   "cycle": "Interpret",
+   "grade": "Contested"
+  },
+  {
+   "name": "Hindsight Bias",
+   "cluster": "C10 Designer, research & systems-thinking biases (team side)",
+   "cycle": "Interpret",
+   "grade": "Strong"
+  },
+  {
+   "name": "IKEA Effect",
+   "cluster": "C7 Autonomy, competence & ownership",
+   "cycle": "Act",
+   "grade": "Moderate"
+  },
+  {
+   "name": "Internal Trigger",
+   "cluster": "C6 Triggers, rewards & habit loops",
+   "cycle": "Remember",
+   "grade": "Practitioner"
+  },
+  {
+   "name": "Investment Loops",
+   "cluster": "C6 Triggers, rewards & habit loops",
+   "cycle": "Act",
+   "grade": "Practitioner"
+  },
+  {
+   "name": "Labor Illusion",
+   "cluster": "C8 Memory, time & experience over time",
+   "cycle": "Act",
+   "grade": "Moderate"
+  },
+  {
+   "name": "Law of Proximity",
+   "cluster": "C1 Perceptual organisation & attention",
+   "cycle": "Filter",
+   "grade": "Strong"
+  },
+  {
+   "name": "Law of Prägnanz",
+   "cluster": "C1 Perceptual organisation & attention",
+   "cycle": "Interpret",
+   "grade": "Strong"
+  },
+  {
+   "name": "Law of Similarity",
+   "cluster": "C1 Perceptual organisation & attention",
+   "cycle": "Interpret",
+   "grade": "Strong"
+  },
+  {
+   "name": "Law of the Instrument",
+   "cluster": "C10 Designer, research & systems-thinking biases (team side)",
+   "cycle": "Act",
+   "grade": "Practitioner"
+  },
+  {
+   "name": "Mental Model",
+   "cluster": "C3 Interaction clarity & mental models",
+   "cycle": "Interpret",
+   "grade": "Moderate"
+  },
+  {
+   "name": "Observer-Expectancy Effect",
+   "cluster": "C10 Designer, research & systems-thinking biases (team side)",
+   "cycle": "Act",
+   "grade": "Moderate"
+  },
+  {
+   "name": "Occam's Razor",
+   "cluster": "C2 Cognitive load & complexity management",
+   "cycle": "Interpret",
+   "grade": "Practitioner"
+  },
+  {
+   "name": "Peak-End Rule",
+   "cluster": "C8 Memory, time & experience over time",
+   "cycle": "Remember",
+   "grade": "Strong"
+  },
+  {
+   "name": "Picture Superiority Effect",
+   "cluster": "C1 Perceptual organisation & attention",
+   "cycle": "Remember",
+   "grade": "Strong"
+  },
+  {
+   "name": "Planning Fallacy",
+   "cluster": "C10 Designer, research & systems-thinking biases (team side)",
+   "cycle": "Act",
+   "grade": "Strong"
+  },
+  {
+   "name": "Reactance",
+   "cluster": "C7 Autonomy, competence & ownership",
+   "cycle": "Act",
+   "grade": "Strong"
+  },
+  {
+   "name": "Recognition Over Recall",
+   "cluster": "C2 Cognitive load & complexity management",
+   "cycle": "Remember",
+   "grade": "Strong"
+  },
+  {
+   "name": "Second-Order Effect",
+   "cluster": "C10 Designer, research & systems-thinking biases (team side)",
+   "cycle": "Act",
+   "grade": "Practitioner"
+  },
+  {
+   "name": "Selective Attention",
+   "cluster": "C1 Perceptual organisation & attention",
+   "cycle": "Filter",
+   "grade": "Strong"
+  },
+  {
+   "name": "Self-Serving Bias",
+   "cluster": "C9 Belief, judgment & self-perception biases (user side)",
+   "cycle": "Act",
+   "grade": "Strong"
+  },
+  {
+   "name": "Sensory Appeal",
+   "cluster": "C1 Perceptual organisation & attention",
+   "cycle": "Remember",
+   "grade": "Moderate"
+  },
+  {
+   "name": "Shaping",
+   "cluster": "C6 Triggers, rewards & habit loops",
+   "cycle": "Remember",
+   "grade": "Strong"
+  },
+  {
+   "name": "Signifiers",
+   "cluster": "C3 Interaction clarity & mental models",
+   "cycle": "Filter",
+   "grade": "Practitioner"
+  },
+  {
+   "name": "Singularity Effect",
+   "cluster": "C5 Social influence & trust",
+   "cycle": "Interpret",
+   "grade": "Contested"
+  },
+  {
+   "name": "Skeuomorphism",
+   "cluster": "C3 Interaction clarity & mental models",
+   "cycle": "Interpret",
+   "grade": "Moderate"
+  },
+  {
+   "name": "Spacing Effect",
+   "cluster": "C8 Memory, time & experience over time",
+   "cycle": "Remember",
+   "grade": "Strong"
+  },
+  {
+   "name": "Spotlight Effect",
+   "cluster": "C5 Social influence & trust",
+   "cycle": "Interpret",
+   "grade": "Moderate"
+  },
+  {
+   "name": "Storytelling Effect",
+   "cluster": "C8 Memory, time & experience over time",
+   "cycle": "Remember",
+   "grade": "Moderate"
+  },
+  {
+   "name": "Sunk Cost Effect",
+   "cluster": "C4 Value, reference points & choice architecture",
+   "cycle": "Act",
+   "grade": "Strong"
+  },
+  {
+   "name": "Survey Bias",
+   "cluster": "C10 Designer, research & systems-thinking biases (team side)",
+   "cycle": "Interpret",
+   "grade": "Strong"
+  },
+  {
+   "name": "Survivorship Bias",
+   "cluster": "C10 Designer, research & systems-thinking biases (team side)",
+   "cycle": "Filter",
+   "grade": "Strong"
+  },
+  {
+   "name": "Tesler's Law",
+   "cluster": "C2 Cognitive load & complexity management",
+   "cycle": "Filter",
+   "grade": "Practitioner"
+  },
+  {
+   "name": "Variable Reward",
+   "cluster": "C6 Triggers, rewards & habit loops",
+   "cycle": "Interpret",
+   "grade": "Strong"
+  },
+  {
+   "name": "Visual Hierarchy",
+   "cluster": "C1 Perceptual organisation & attention",
+   "cycle": "Filter",
+   "grade": "Practitioner"
+  },
+  {
+   "name": "Von Restorff Effect",
+   "cluster": "C1 Perceptual organisation & attention",
+   "cycle": "Filter",
+   "grade": "Strong"
+  },
+  {
+   "name": "Weber's Law",
+   "cluster": "C1 Perceptual organisation & attention",
+   "cycle": "Act",
+   "grade": "Strong"
+  }
+ ]
+}
