@@ -21,3 +21,6 @@ Raw / wiki / schema layers; index.md, log.md, lint report; QUERY and LINT modes;
 
 ## [2026-10-05] edit | v1.1.0
 Seven modes; domain-neutral examples in all modules; wiki and map rebuilt.
+
+## [2026-10-07] edit | Map as landing page
+index.html is the mind map; old map address redirects.

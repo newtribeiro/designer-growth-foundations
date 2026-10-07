@@ -5,7 +5,7 @@ Usage:  python3 tools/build.py          (run from the repository root)
 
 Reads   SKILL.md, data/psych-principles.json, library/sources.json, tools/map-template.html
 Writes  wiki/*.md (one page per node), wiki/index.md, wiki/lint-metrics.json,
-        map/graph.json, map/designer-growth-map.html
+        map/graph.json, index.html (the map, served as the site's landing page)
 """
 import json, os, re, shutil
 from collections import defaultdict
@@ -225,5 +225,7 @@ data = dict(cats=CATS, nodes=list(nodes.values()), edges=edges, lessons=LES, psy
 json.dump(data, open(P('map', 'graph.json'), 'w', encoding='utf-8'), ensure_ascii=False)
 tpl = open(P('tools', 'map-template.html'), encoding='utf-8').read()
 html = tpl.replace('__DATA__', json.dumps(data, ensure_ascii=False).replace('</', '<\\/')).replace('__LINT__', json.dumps(lint).replace('</', '<\\/'))
-open(P('map', 'designer-growth-map.html'), 'w', encoding='utf-8').write(html)
+open(P('index.html'), 'w', encoding='utf-8').write(html)
+# old address forwards to the landing page
+open(P('map', 'designer-growth-map.html'), 'w', encoding='utf-8').write('<!doctype html><meta charset="utf-8"><title>Designer Growth Map</title><meta http-equiv="refresh" content="0; url=../"><link rel="canonical" href="../"><a href="../">Designer Growth Map</a>\n')
 print(f'{len(nodes)} pages, {len(edges)} relations, {len(LES)} sources, {len(lint["weak"])} weak links, unknown principle names: {lint["unknownPrinciples"]}')

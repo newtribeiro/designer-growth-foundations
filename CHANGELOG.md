@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1 — 2026-10-07
+
+- The mind map is now the site's landing page (`index.html`); the old `map/designer-growth-map.html` address forwards to it.
+
 ## 1.1.0 — 2026-10-05
 
 - Seven modes: Assess, Reflect, Lineage, Curriculum, Ingest, Query, Lint.

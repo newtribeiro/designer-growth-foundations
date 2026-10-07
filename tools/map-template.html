@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Designer Growth Map</title>
+<meta name="description" content="An interactive semantic map of the designer-growth-foundations Claude skill: modes, competency domains, deep modules, designer tendencies, design history and psychology principles.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -97,6 +98,10 @@ td.zero{color:var(--bad);font-weight:600}
 .idxcat a{cursor:pointer;color:var(--ink)}
 .idxcat a:hover{color:var(--focus)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.hside{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.repo{font-family:var(--f-mono);font-size:12px;color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line)}
+.repo:hover{color:var(--ink);border-color:var(--ink)}
+@media (max-width:700px){.hside{align-items:flex-start}}
 </style>
 </head>
 <body>
@@ -107,7 +112,7 @@ td.zero{color:var(--bad);font-weight:600}
       <h1>Designer Growth Map</h1>
       <p class="sub">The semantic network behind the <span class="mono">designer-growth-foundations</span> skill: every mode, domain, deep module, tendency, lineage strand and psychology principle, and how they connect. Select any node to cross-check its relations.</p>
     </div>
-    <div class="stats" id="stats"></div>
+    <div class="hside"><div class="stats" id="stats"></div><a class="repo" href="https://github.com/newtribeiro/designer-growth-foundations" target="_blank" rel="noopener">Skill files on GitHub ↗</a></div>
   </header>
 
   <div class="bar">

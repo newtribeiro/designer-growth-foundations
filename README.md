@@ -1,6 +1,6 @@
 # Designer Growth Foundations
 
-**[Open the interactive mind map →](https://newtribeiro.github.io/designer-growth-foundations/map/designer-growth-map.html)**
+**[Open the interactive mind map →](https://newtribeiro.github.io/designer-growth-foundations/)**
 
 A Claude skill for getting better **as a designer**, not just making a better design. It assesses skill level from evidence, plans learning cycles, debriefs projects for designer biases, traces design choices back through art and design history, and goes deep in five areas: safety-critical & HMI, accessibility, design tokens, brand identity and game UX.
 
@@ -13,7 +13,7 @@ The knowledge base follows Andrej Karpathy's [LLM Wiki](https://gist.github.com/
 | `SKILL.md` | The skill: 7 modes (Assess, Reflect, Lineage, Curriculum, Ingest, Query, Lint), 10 competency domains, designer-bias table, learning science, lineage table, condensed deep modules, output conventions |
 | `modules/` | Five deep modules (S safety-critical & HMI · A accessibility · T design tokens · B brand identity · G game UX), each with lineage, graded knowledge, methods, checklist, designer traps and sources |
 | `wiki/` | 140 Obsidian-compatible pages with `[[wikilinks]]`, `index.md`, `log.md`, `lint-report.md`, `evidence-audit.md` |
-| `map/designer-growth-map.html` | Interactive semantic mind map ([live version](https://newtribeiro.github.io/designer-growth-foundations/map/designer-growth-map.html)): radial graph, coverage matrix, cross-check panel, index |
+| `index.html` | Interactive semantic mind map, also the [project site](https://newtribeiro.github.io/designer-growth-foundations/): radial graph, coverage matrix, cross-check panel, index |
 | `library/` | Index of all 156 sources (68 Hack Design lessons, 69 uxtools.co articles, 18 challenges, 1 survey report) with canonical titles and links |
 | `data/psych-principles.json` | The 61 psychology principle names the skill uses, with cluster, decision-cycle step and evidence grade |
 | `tools/build.py` | Rebuilds the wiki pages, index and mind map from `SKILL.md` and the data files (Python 3, no dependencies) |
@@ -60,6 +60,6 @@ This repository contains **an index and original synthesis only**. Lessons, arti
 ## License
 
 - **Content** — `SKILL.md`, `modules/`, `wiki/`, `library/`, `data/` and the mind map's text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) — see `LICENSE`. You may share and adapt it for any purpose, including commercially, as long as you give appropriate credit, link to the license and indicate if changes were made.
-- **Code** — `tools/build.py`, `tools/map-template.html` and the script in `map/designer-growth-map.html`: [MIT](https://opensource.org/license/mit) — see `LICENSE-CODE`.
+- **Code** — `tools/build.py`, `tools/map-template.html` and the script in `index.html`: [MIT](https://opensource.org/license/mit) — see `LICENSE-CODE`.
 
 Third-party lessons, articles and surveys linked from this repository remain under their owners' terms and are not covered by these licenses.
